@@ -22,6 +22,8 @@
 		BEB936D51BFC3EB700F4C66A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEB936D81BFC3EB700F4C66A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEB936DA1BFC3EB700F4C66A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB936E01BFD60DD00F4C66A /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		BEB936E11BFD60DD00F4C66A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,8 @@
 		BEB936C21BFC3EB700F4C66A = {
 			isa = PBXGroup;
 			children = (
+				BEB936E01BFD60DD00F4C66A /* LICENSE.md */,
+				BEB936E11BFD60DD00F4C66A /* README.md */,
 				BEB936CD1BFC3EB700F4C66A /* SwiftyWords */,
 				BEB936CC1BFC3EB700F4C66A /* Products */,
 			);
