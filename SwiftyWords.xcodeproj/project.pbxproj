@@ -13,6 +13,7 @@
 		BEB936D61BFC3EB700F4C66A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB936D51BFC3EB700F4C66A /* Assets.xcassets */; };
 		BEB936D91BFC3EB700F4C66A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB936D71BFC3EB700F4C66A /* LaunchScreen.storyboard */; };
 		BEC410EB1C017F3500F9415D /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = BEC410EA1C017F3500F9415D /* level1.txt */; };
+		BED09A201C02E8EF00CA94ED /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = BED09A1F1C02E8EF00CA94ED /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BEB936E01BFD60DD00F4C66A /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		BEB936E11BFD60DD00F4C66A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BEC410EA1C017F3500F9415D /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		BED09A1F1C02E8EF00CA94ED /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				BEC410EA1C017F3500F9415D /* level1.txt */,
+				BED09A1F1C02E8EF00CA94ED /* level2.txt */,
 				BEB936CE1BFC3EB700F4C66A /* AppDelegate.swift */,
 				BEB936D01BFC3EB700F4C66A /* ViewController.swift */,
 				BEB936D21BFC3EB700F4C66A /* Main.storyboard */,
@@ -129,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED09A201C02E8EF00CA94ED /* level2.txt in Resources */,
 				BEB936D91BFC3EB700F4C66A /* LaunchScreen.storyboard in Resources */,
 				BEC410EB1C017F3500F9415D /* level1.txt in Resources */,
 				BEB936D61BFC3EB700F4C66A /* Assets.xcassets in Resources */,
