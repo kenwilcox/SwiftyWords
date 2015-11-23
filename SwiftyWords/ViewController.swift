@@ -46,7 +46,13 @@ class ViewController: UIViewController {
   }
   
   @IBAction func clearTapped(sender: UIButton) {
+    currentAnswer.text = ""
     
+    for btn in activatedButtons {
+      btn.hidden = false
+    }
+    
+    activatedButtons.removeAll()
   }
   
   func letterTapped(btn: UIButton) {
