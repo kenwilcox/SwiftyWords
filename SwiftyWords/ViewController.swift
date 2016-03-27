@@ -68,7 +68,8 @@ class ViewController: UIViewController {
     currentAnswer.text = ""
     
     for btn in activatedButtons {
-      btn.hidden = false
+      btn.enabled = true
+      btn.alpha = 1.0
     }
     
     activatedButtons.removeAll()
@@ -77,17 +78,26 @@ class ViewController: UIViewController {
   func letterTapped(btn: UIButton) {
     currentAnswer.text = currentAnswer.text! + btn.titleLabel!.text!
     activatedButtons.append(btn)
-    btn.hidden = true
+    UIView.animateWithDuration(1, delay: 0, options: [], animations: {
+      btn.alpha = 0.1
+    }) { (finished: Bool) in
+      btn.enabled = false
+    }
   }
   
   func levelUp(action: UIAlertAction!) {
     level += 1
+    if level > 2 {
+        level = 1
+    }
+    
     solutions.removeAll(keepCapacity: true)
     
     loadLevel()
     
     for btn in letterButtons {
-      btn.hidden = false
+      btn.enabled = true
+      btn.alpha = 1.0
     }
   }
   
